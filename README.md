@@ -91,9 +91,11 @@ yarn install
 2. Hugging Face API token'ınızı ekleyin:
 javascript
 module.exports =
+
  {
   HF_API_TOKEN: 'your-huggingface-token-here',
   HF_MODEL: 'nlptown/bert-base-multilingual-uncased-sentiment'
+
 };
 **Hugging Face Token Nasıl Alınır?**
 1. [Hugging Face](https://huggingface.co/) hesabı oluşturun
