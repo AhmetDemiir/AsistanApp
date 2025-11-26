@@ -82,7 +82,7 @@ cd AsistanApp
 
 ### Adım 2: Bağımlılıkları Yükleyin
 npm install
-# veya
+veya
 yarn install
 
 
@@ -90,7 +90,8 @@ yarn install
 1. `src/config/local.env.js` dosyasını açın
 2. Hugging Face API token'ınızı ekleyin:
 javascript
-module.exports = {
+module.exports =
+ {
   HF_API_TOKEN: 'your-huggingface-token-here',
   HF_MODEL: 'nlptown/bert-base-multilingual-uncased-sentiment'
 };
@@ -103,19 +104,19 @@ module.exports = {
 
 ### Adım 4: Metro Bundler'ı Başlatın
 npm start
-# veya
+ veya
 yarn start
 
 
 ### Adım 5: Uygulamayı Çalıştırın
 **Android için:**
 npm run android
-# veya
+#veya
 yarn android
 
 **iOS için (sadece macOS):**
 npm run ios
-# veya
+ veya
 yarn ios
 
 
